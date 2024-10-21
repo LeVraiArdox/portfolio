@@ -1,161 +1,284 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
-body {
-  font-family: "Raleway", serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #6c41d0;
-  background-image: linear-gradient(
-    43deg,
-    #6c41d0 0%,
-    #8672a0 46%,
-    #6c41d0 100%
-  );
-}
 html {
   scroll-behavior: smooth;
 }
-* {
+
+body {
+  font-family: 'Outfit', sans-serif;
   margin: 0;
-}
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#preloader {
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.App {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
   position: fixed;
-  top: 0;
-  left: 0;
+  border-bottom-right-radius: 15px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #6c41d0;
-  background-image: url(../src/Assets/bars.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#preloader-none {
-  opacity: 0;
+  height: 50px;
+  background-color: #282c3400;
+  color: white;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
-
-::-webkit-scrollbar {
-  width: 3px;
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #282c3400;
+  color: white;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: #6c41d0;
-  background-image: linear-gradient(
-    43deg,
-    #6c41d0 0%,
-    #8672a0 46%,
-    #6c41d0 100%
-  );
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background-color: #6c41d0;
-  border-radius: 8px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.911);
-  border-radius: 3px;
-}
-
-.icon {
+.nav {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
   font-size: 30px;
-}
-.font-poppins {
-  font-family: "Poppins";
-}
-.sticky {
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
-}
-.navbar-bg{
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #6c41d0 0%,
-    #8672a0 46%,
-    #6c41d0 100%
-  );
-}
-.button-UI {
-  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%);
-}
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
+  padding: 20px;
 }
 
-@keyframes wave-animation {
+.home-container {
+  height: 100vh;
+  background: url("/src/assets/img/oldhouse.gif") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  height: 50vh;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.slogan {
+  font-size: 40px;
+}
+
+.bio {
+  font-size: 20px;
+ text-align: center;
+}
+
+.about, .projects-section, .contact-section {
+  background-color: #0d0d0d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.aboutText {
+  font-size: 20px;
+  padding: 20px;
+  width: 70vh;
+  align-self: center;
+  max-width: 90%;
+}
+
+.skillsImg {
+  width: 50px;
+  height: 50px;
+  margin: 10px
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+  width: 50vh;
+}
+
+.main__scroll-text {
+  color: rgb(255, 255, 255);
+}
+
+.main__action:hover .main__scroll-box {
+  animation: scroll-down 3s infinite;
+}
+
+@keyframes scroll-down {
+  0%, 100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #1d1d1d;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: #1D1D1D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  border-radius: 10px;
+  align-self: center;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  border-radius: 5px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
   0% {
-    transform: rotate(0deg);
+    transform: translateY(-50px);
+    opacity: 0;
   }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+
   100% {
-    transform: rotate(0deg);
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
+.about-bg {
+  background-color: #1D1D1D;
+  border-radius: 15px;
+}
 
-.Typewriter__wrapper {
-  font-size: 2em !important;
-  color: #191919 !important;
-  font-weight: 600 !important;
-  letter-spacing: 1px !important;
-}
-.Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #191919 !important;
-}
-@media (max-width: 767px) {
-  .cursor{
-    display: none;
-  }
-  .Typewriter__wrapper {
-    font-size: 1.6em !important;
-    color: #191919 !important;
-    font-weight: 600 !important;
-    letter-spacing: 1px !important;
-  }
-  .Typewriter__cursor {
-    font-size: 1.4em !important;
-    color: #191919 !important;
-  }
+.separator {
+  border-color: #3b3b3b;
 }
