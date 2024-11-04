@@ -30,6 +30,7 @@ const About = () => {
                     <img className='skillsImg' src="https://skillicons.dev/icons?i=git" alt="skills" />
                     <img className='skillsImg' src="https://skillicons.dev/icons?i=github" alt="skills" />
                     <img className='skillsImg' src="https://skillicons.dev/icons?i=vscode" alt="skills" />
+                    <img className='skillsImg' src="https://skillicons.dev/icons?i=rust" alt="skills" />
                 </div>
             </div>
         </div>
