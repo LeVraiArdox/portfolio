@@ -1,0 +1,138 @@
+{
+  "basics": {
+    "name": "Adrian Arjoca",
+    "nickname": "Ardox",
+    "label": "Undergraduate of Computer Science at Sup de Vinci Paris.",
+    "summary": "I'm the developer of AxOS, a cool and open-source and Linux distribution based on Arch Linux. I love spending my time creating something that not only looks good but also perfectly usable and practical. That's how AxOS came to life. I've been creating, updating and maintaining it for the last 4 years.",
+    "location": {
+      "city": "Versailles",
+      "countryCode": "33",
+      "region": "France"
+    },
+    "socials": [
+      {
+        "network": "email",
+        "url": "mailto:ardox@axos-peoject.com"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/levraiardox"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://linkedin.com/in/adrian-arjoca-13a0552a4"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nowhere",
+      "position": "Nothing",
+      "location_type": "none",
+      "location": "Nowhere",
+      "url": "none",
+      "startDate": "never",
+      "endDate": "never",
+      "summary": "I have no experience",
+      "responsibilities": [
+        "Nothing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sup de Vinci, Paris",
+      "url": "https://supdevinci.fr/",
+      "area": "Computer science Master",
+      "studyType": "Vocational High School",
+      "startDate": "2024-10-01",
+      "endDate": null,
+      "summary": "I’m currently in my first year of computer science studies at Sup de Vinci in Paris. My goal is to earn a Master’s degree as an Expert in Architecture and Software Development."
+    },
+    {
+      "institution": "Lycée Jules Ferry, Versailles",
+      "url": "https://lyc-ferry-versailles.ac-versailles.fr/",
+      "area": "STI2D",
+      "studyType": "baccalaureate",
+      "startDate": "2021-09-03",
+      "endDate": "2024-06-01",
+      "summary": "My three years of high school were spent at Lycée Jules Ferry, where I studied science and technology. I learned a lot about electronics, computer science, and engineering."
+    }
+  ],
+  "awards": [
+    {
+      "title": "None",
+      "date": "Never",
+      "awarder": "Nuh uh"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Lua", "Rust"],
+    "frameworks": ["NodeJS", "NodeRed", "Next.JS"],
+    "databases": ["MySQL"],
+    "tools": ["Linux", "Git"]
+  },
+  "projects": [
+    {
+      "name": "AxOS",
+      "description": "AxOS is a Linux distribution aimed on beauty and performances.",
+      "url": "https://axos-project.com",
+      "highlights": [
+        "Using custom made apps such as an installer, a mirror database and more.",
+        "Designed to be elegant but still keeps his performances."
+      ],
+      "technologies": ["Linux", "Rust", "Github Pages", "Bash", "Python", "GTK", "JavaScript", "C"]
+    },
+    {
+      "name": "SchoolNotes",
+      "description": "A web app where i post the notes i took in class to share them with my classmates or anyone else.",
+      "url": "https://notes.lvardox.com",
+      "highlights": [
+        "Using MDX pages for a better write efficiency.",
+        "Has functions like a light/dark mode and a search bar."
+      ],
+      "technologies": ["React", "Tailwind", "MDX", "JavaScript", "Vercel"]
+    },
+    {
+      "name": "LMBot",
+      "description": "LLM AI Discord bot",
+      "url": "https://github.com/levraiardox/lmbot",
+      "highlights": [
+        "Can keep a conversation with a context memory.",
+        "Can answer without having to execute a command."
+      ],
+      "technologies": ["Python"]
+    },
+    {
+      "name": "Epsilon",
+      "description": "Pacman wrapper and AUR helper for AxOS",
+      "url": "https://github.com/axos-project/epsilon",
+      "highlights": [
+        "Can search in the AUR and the Pacman repositories to find any packages.",
+        "Does the package build process when needed."
+      ],
+      "technologies": ["Rust"]
+    },
+    {
+      "name": "Axinstall",
+      "description": "Installer for AxOS",
+      "url": "https://github.com/axos-project/axinstall",
+      "highlights": [
+        "Has a intuitive graphic interface using GTK.",
+        "Create a system on the disk instead of copying the live environement.",
+        "The user can chose which desktop and which kernel should be installed."
+      ],
+      "technologies": ["Rust", "Python", "GTK"]
+    },
+    {
+      "name": "JFCocktails",
+      "description": "High school final project, functional cocktail maching",
+      "url": "https://github.com/raexera/RAiso",
+      "highlights": [
+        "Can be used either with a mobile app or the built-in screen.",
+        "Has a variety of 6 cocktails."
+      ],
+      "technologies": ["Node.js", "Node-Red", "React", "JavaScript", "Python"]
+    }
+  ]
+}
