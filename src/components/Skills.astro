@@ -1,13 +1,15 @@
 ---
 import { skills } from "@cv";
 import Section from "./Section.astro";
-const { programming_languages, frameworks, databases, tools } = skills;
+import { title } from "framer-motion/client";
+const { programming_languages, frameworks, databases, tools, soft } = skills;
 
 const skillCategories = [
   { title: "Programming Languages", items: programming_languages },
   { title: "Libraries / Frameworks", items: frameworks },
   { title: "Database", items: databases },
   { title: "Tools", items: tools },
+  { title: "Soft Skills", items: soft}
 ];
 ---
 
