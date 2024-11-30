@@ -68,7 +68,7 @@
   ],
   "skills": {
     "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Lua", "Rust", "Markdown"],
-    "frameworks": ["NodeJS", "NodeRed", "Next.JS", "Tailwind", "GTK"],
+    "frameworks": ["NodeJS", "NodeRed", "Next.JS", "Tailwind", "GTK", "Expo", "Dioxus"],
     "databases": ["MySQL"],
     "tools": ["Linux", "Git"],
     "soft": ["Teamwork", "Problem-solving", "Adaptability", "Creativity", "Time management", "Oral and written communication"]
