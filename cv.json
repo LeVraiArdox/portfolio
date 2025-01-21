@@ -85,24 +85,23 @@
       "technologies": ["Linux", "Rust", "Github Pages", "Bash", "Python", "GTK", "JavaScript", "C"]
     },
     {
-      "name": "SchoolNotes",
+      "name": "SchoolNotesV2",
       "description": "A web app where i post the notes i took in class to share them with my classmates or anyone else.",
       "url": "https://notes.lvardox.com",
       "highlights": [
-        "Using MDX pages for a better write efficiency.",
-        "Has functions like a light/dark mode and a search bar."
+        "Using MDX pages for a better write efficiency and print formatting.",
+        "Each chapters are separated in different pages, each modules are separated in different sections."
       ],
-      "technologies": ["React", "Tailwind", "MDX", "JavaScript", "Vercel"]
+      "technologies": ["Astro", "Tailwind", "MDX", "JavaScript", "Vercel"]
     },
     {
-      "name": "LMBot",
-      "description": "LLM AI Discord bot",
-      "url": "https://github.com/levraiardox/lmbot",
+      "name": "TeslaClone",
+      "description": "A clone of the main page of the Tesla website.",
+      "url": "https://github.com/levraiardox/teslaclone",
       "highlights": [
-        "Can keep a conversation with a context memory.",
-        "Can answer without having to execute a command."
+        "Made in 1 day as school project."
       ],
-      "technologies": ["Python"]
+      "technologies": ["React", "JavaScript"]
     },
     {
       "name": "Epsilon",
@@ -134,6 +133,68 @@
         "Has a variety of 6 cocktails."
       ],
       "technologies": ["Node.js", "Node-Red", "React", "JavaScript", "Python"]
+    },
+    {
+      "name": "DinoRun",
+      "description": "A parody of the Chrome Dino game where the dino is replaced by the IT guy of the school (his name is Dino, that's why)",
+      "url": "https://github.com/LeVraiArdox/DinoRun",
+      "highlights": [
+        "Made in 1 day as Python school project.",
+        "Made with Pygame."
+      ],
+      "technologies": ["Python", "Pygame"]
+    },
+    {
+      "name": "Discord-RPC",
+      "description": "A simple Discord Rich Presence for AxOS",
+      "url": "https://github.com/levraiardox/discord-rpc",
+      "highlights": [
+        "Shows the user's current desktop and the uptime of the system.",
+        "Show if the user is listening to music or using a know code editor.",
+        "Can be used with any other Linux distribution."
+      ],
+      "technologies": ["Node.js", "JavaScript", "Discord API"]
+    },
+    {
+      "name": "This portfolio",
+      "description": "This portfolio, made with Astro and Tailwind.",
+      "url": "/",
+      "highlights": [
+        "Made with Astro and Tailwind.",
+        "Cool animations."
+      ],
+      "technologies": ["Astro", "Tailwind", "JavaScript"]
+    },
+    {
+      "name": "ls",
+      "description": "My own ls command made with rust, absolutely useless ",
+      "url": "https://github.com/levraiardox/ls",
+      "highlights": [
+        "Handle flags such as -l, -a, -h, -r, -t, -R.",
+        "Can be used with any Linux distribution."
+      ],
+      "technologies": ["Rust"]
+    },
+    {
+      "name": "Fakebat",
+      "description": "A linux kernel module that simulate the batery of a laptop. Made for testing purposes.",
+      "url": "https://github.com/LeVraiArdox/fakebat",
+      "highlights": [
+        "Can be used with any Linux distribution.",
+        "Can be used to test the power management of a laptop.",
+        "States such as capacity and charging status can be changed."
+      ],
+      "technologies": ["C", "Linux Kernel"]
+    },
+    {
+      "name": "Ginger Archive",
+      "description": "PDF Storage website for my high school engineering teacher.",
+      "url": "https://github.com/levraiardox/ginger-archive",
+      "highlights": [
+        "Can store PDF files.",
+        "Backend and frontend are separated."
+      ],
+      "technologies": ["Node.js", "React", "JavaScript"]
     }
   ]
 }
