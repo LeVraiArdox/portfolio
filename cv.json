@@ -195,6 +195,28 @@
         "Backend and frontend are separated."
       ],
       "technologies": ["Node.js", "React", "JavaScript"]
+    },
+    {
+      "name": "Sleex",
+      "description": "The third desktop environment for AxOS",
+      "url": "https://github.com/axos-project/sleex",
+      "highlights": [
+        "Made with GTK JS (GJS).",
+        "Has a lot of customization options."
+      ],
+      "technologies": ["JavaScript", "GTK"]
+    },
+    {
+      "name": "JFEsport",
+      "description": "A website for my high school's esport club.",
+      "url": "#",
+      "highlights": [
+        "Has a calendar for the events.",
+        "Has a list of the games played.",
+        "Has a user specific dashboard with the user's stats and charts.",
+        "Has a session registration system."
+      ],
+      "technologies": ["Node.js", "React", "JavaScript", "MySQL", "Tailwind", "PHP"]
     }
   ]
 }
