@@ -95,13 +95,15 @@
       "technologies": ["Astro", "Tailwind", "MDX", "JavaScript", "Vercel"]
     },
     {
-      "name": "TeslaClone",
-      "description": "A clone of the main page of the Tesla website.",
-      "url": "https://github.com/levraiardox/teslaclone",
+      "name": "Axuralis",
+      "description": "A music player for AxOS with FLAC and discord RPC support.",
+      "url": "https://github.com/axos-project/axuralis",
       "highlights": [
-        "Made in 1 day as school project."
+        "Can play any music file.",
+        "Can be used with any Linux distribution.",
+        "Discord RPC support."
       ],
-      "technologies": ["React", "JavaScript"]
+      "technologies": ["Rust", "GTK"]
     },
     {
       "name": "Epsilon",
@@ -127,7 +129,7 @@
     {
       "name": "JFCocktails",
       "description": "High school final project, functional cocktail maching",
-      "url": "https://github.com/raexera/RAiso",
+      "url": "https://github.com/mouuxime/JFCocktails",
       "highlights": [
         "Can be used either with a mobile app or the built-in screen.",
         "Has a variety of 6 cocktails."
