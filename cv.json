@@ -68,7 +68,7 @@
   ],
   "skills": {
     "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Lua", "Rust", "Markdown"],
-    "frameworks": ["NodeJS", "NodeRed", "Next.JS", "Tailwind", "GTK", "Expo", "Dioxus"],
+    "frameworks": ["NodeJS", "NodeRed", "Next.JS", "Tailwind", "GTK", "Expo"],
     "databases": ["MySQL"],
     "tools": ["Linux", "Git"],
     "soft": ["Teamwork", "Problem-solving", "Adaptability", "Creativity", "Time management", "Oral and written communication"]
@@ -85,25 +85,14 @@
       "technologies": ["Linux", "Rust", "Github Pages", "Bash", "Python", "GTK", "JavaScript", "C"]
     },
     {
-      "name": "SchoolNotesV2",
-      "description": "A web app where i post the notes i took in class to share them with my classmates or anyone else.",
-      "url": "https://notes.lvardox.com",
+      "name": "Sleex",
+      "description": "The third desktop environment for AxOS",
+      "url": "https://github.com/axos-project/sleex",
       "highlights": [
-        "Using MDX pages for a better write efficiency and print formatting.",
-        "Each chapters are separated in different pages, each modules are separated in different sections."
+        "Made with GTK JS (GJS).",
+        "Has a lot of customization options."
       ],
-      "technologies": ["Astro", "Tailwind", "MDX", "JavaScript", "Vercel"]
-    },
-    {
-      "name": "Axuralis",
-      "description": "A music player for AxOS with FLAC and discord RPC support.",
-      "url": "https://github.com/axos-project/axuralis",
-      "highlights": [
-        "Can play any music file.",
-        "Can be used with any Linux distribution.",
-        "Discord RPC support."
-      ],
-      "technologies": ["Rust", "GTK"]
+      "technologies": ["JavaScript", "GTK"]
     },
     {
       "name": "Epsilon",
@@ -127,6 +116,27 @@
       "technologies": ["Rust", "Python", "GTK"]
     },
     {
+      "name": "SchoolNotesV2",
+      "description": "A web app where i post the notes i took in class to share them with my classmates or anyone else.",
+      "url": "https://notes.lvardox.com",
+      "highlights": [
+        "Using MDX pages for a better write efficiency and print formatting.",
+        "Each chapters are separated in different pages, each modules are separated in different sections."
+      ],
+      "technologies": ["Astro", "Tailwind", "MDX", "JavaScript", "Vercel"]
+    },
+    {
+      "name": "Axuralis",
+      "description": "A music player for AxOS with FLAC and discord RPC support.",
+      "url": "https://github.com/axos-project/axuralis",
+      "highlights": [
+        "Can play any music file.",
+        "Can be used with any Linux distribution.",
+        "Discord RPC support."
+      ],
+      "technologies": ["Rust", "GTK"]
+    },
+    {
       "name": "JFCocktails",
       "description": "High school final project, functional cocktail maching",
       "url": "https://github.com/mouuxime/JFCocktails",
@@ -135,6 +145,26 @@
         "Has a variety of 6 cocktails."
       ],
       "technologies": ["Node.js", "Node-Red", "React", "JavaScript", "Python"]
+    },
+    {
+      "name": "Blockchain",
+      "description": "My final B1 project at Sup de Vinci",
+      "url": "https://github.com/levraiardox/blockchain",
+      "highlights": [
+        "15 pages about the blockchain and it's potential future",
+        "As practical project, deployed an ETH blockchain and a smart contract on a private network"
+      ],
+      "technologies": ["Ethereum", "Ganache", "Hardhat", "JavaScript", "Solidity"]
+    },
+    {
+      "name": "Axctl",
+      "description": "CLI system backend for AxOS",
+      "url": "https://github.com/axos-project/axctl",
+      "highlights": [
+        "Can handle system-level tasks",
+        "Can change the boot menu style and boot splash animation."
+      ],
+      "technologies": ["Rust"]
     },
     {
       "name": "DinoRun",
@@ -197,16 +227,6 @@
         "Backend and frontend are separated."
       ],
       "technologies": ["Node.js", "React", "JavaScript"]
-    },
-    {
-      "name": "Sleex",
-      "description": "The third desktop environment for AxOS",
-      "url": "https://github.com/axos-project/sleex",
-      "highlights": [
-        "Made with GTK JS (GJS).",
-        "Has a lot of customization options."
-      ],
-      "technologies": ["JavaScript", "GTK"]
     },
     {
       "name": "JFEsport",
