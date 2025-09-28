@@ -67,8 +67,8 @@
     }
   ],
   "skills": {
-    "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Lua", "Rust", "Markdown"],
-    "frameworks": ["NodeJS", "NodeRed", "Next.JS", "Tailwind", "GTK", "Expo"],
+    "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Rust", "Markdown"],
+    "frameworks": ["NodeJS", "NodeRed", "Tailwind", "GTK", "Expo"],
     "databases": ["MySQL"],
     "tools": ["Linux", "Git"],
     "soft": ["Teamwork", "Problem-solving", "Adaptability", "Creativity", "Time management", "Oral and written communication"]
@@ -82,17 +82,17 @@
         "Using custom made apps such as an installer, a mirror database and more.",
         "Designed to be elegant but still keeps his performances."
       ],
-      "technologies": ["Linux", "Rust", "Github Pages", "Bash", "Python", "GTK", "JavaScript", "C"]
+      "technologies": ["Linux", "Rust", "Bash", "Python", "GTK", "JavaScript", "C"]
     },
     {
       "name": "Sleex",
       "description": "The third desktop environment for AxOS",
       "url": "https://github.com/axos-project/sleex",
       "highlights": [
-        "Made with GTK JS (GJS).",
+        "Made with QtQuick/Quickshell.",
         "Has a lot of customization options."
       ],
-      "technologies": ["JavaScript", "GTK"]
+      "technologies": ["JavaScript", "GTK", "QT/QML", "QtQuick", "Bash"]
     },
     {
       "name": "Epsilon",
