@@ -67,11 +67,16 @@
     }
   ],
   "skills": {
-    "programming_languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "C", "Rust", "Markdown"],
-    "frameworks": ["NodeJS", "NodeRed", "Tailwind", "GTK", "Expo"],
-    "databases": ["MySQL"],
-    "tools": ["Linux", "Git"],
-    "soft": ["Teamwork", "Problem-solving", "Adaptability", "Creativity", "Time management", "Oral and written communication"]
+    "operating_systems": ["Linux (expert)", "Windows (intermediate)"],
+    "languages": ["HTML/CSS", "JavaScript", "Python", "React", "Arduino", "Bash", "Powershell", "C", "Rust", "Markdown", "QML"],
+    "cloud": ["Vercel", "Google Cloud", "Microsoft Azure", "Oracle Cloud"],
+    "networking": ["HTTP", "FTP", "SSH", "DNS", "Cisco Basics"],
+    "frameworks": ["NodeJS", "NodeRed", "Tailwind", "GTK", "QT", "Expo"],
+    "databases": ["MySQL", "SQLite"],
+    "tools": ["Git", "Docker", "Notion", "Office 365"],
+    "virtualization": ["VirtualBox", "VMware", "QEMU", "Hyper-V"],
+    "security": ["Bitlocker encryption", "LUKS encryption", "Basic network security"],
+    "soft": ["Teamwork", "Problem-solving", "Adaptability", "Creativity", "Time management", "Oral and written communication", "Agile", "Curiosity", "Autodidacticism", "Autonomy"]
   },
   "projects": [
     {

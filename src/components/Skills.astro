@@ -2,13 +2,18 @@
 import { skills } from "@cv";
 import Section from "./Section.astro";
 import { title } from "framer-motion/client";
-const { programming_languages, frameworks, databases, tools, soft } = skills;
+const { operating_systems, languages, cloud, networking, frameworks, databases, tools, virtualization, security, soft } = skills;
 
 const skillCategories = [
-  { title: "Programming Languages", items: programming_languages },
+  { title: "Languages", items: languages },
+  { title: "Operating Systems", items: operating_systems },
+  { title: "Cloud Platforms", items: cloud },
+  { title: "Networking", items: networking },
   { title: "Libraries / Frameworks", items: frameworks },
   { title: "Database", items: databases },
   { title: "Tools", items: tools },
+  { title: "Virtualization", items: virtualization },
+  { title: "Security", items: security },
   { title: "Soft Skills", items: soft}
 ];
 ---
