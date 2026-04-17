@@ -15,8 +15,8 @@
         "url": "mailto:ardox@axos-project.com"
       },
       {
-        "network": "github",
-        "url": "https://github.com/levraiardox"
+        "network": "gitlab",
+        "url": "https://gitlab.com/lvardox"
       },
       {
         "network": "linkedin",
@@ -92,7 +92,7 @@
     {
       "name": "Sleex",
       "description": "The third desktop environment for AxOS",
-      "url": "https://github.com/axos-project/sleex",
+      "url": "https://gitlab.com/axos-project/sleex",
       "highlights": [
         "Made with QtQuick/Quickshell.",
         "Has a lot of customization options."
@@ -102,7 +102,7 @@
     {
       "name": "Epsilon",
       "description": "Pacman wrapper and AUR helper for AxOS",
-      "url": "https://github.com/axos-project/epsilon",
+      "url": "https://gitlab.com/axos-project/epsilon",
       "highlights": [
         "Can search in the AUR and the Pacman repositories to find any packages.",
         "Does the package build process when needed."
@@ -112,7 +112,7 @@
     {
       "name": "Axinstall",
       "description": "Installer for AxOS",
-      "url": "https://github.com/axos-project/axinstall",
+      "url": "https://gitlab.com/axos-project/axinstall-gui",
       "highlights": [
         "Has a intuitive graphic interface using GTK.",
         "Create a system on the disk instead of copying the live environement.",
@@ -154,7 +154,7 @@
     {
       "name": "Blockchain",
       "description": "My final B1 project at Sup de Vinci",
-      "url": "https://github.com/levraiardox/blockchain",
+      "url": "https://gitlab.com/lvardox/blockchain",
       "highlights": [
         "15 pages about the blockchain and it's potential future",
         "As practical project, deployed an ETH blockchain and a smart contract on a private network"
@@ -164,7 +164,7 @@
     {
       "name": "Axctl",
       "description": "CLI system backend for AxOS",
-      "url": "https://github.com/axos-project/axctl",
+      "url": "https://gitlab.com/axos-project/axctl",
       "highlights": [
         "Can handle system-level tasks",
         "Can change the boot menu style and boot splash animation."
