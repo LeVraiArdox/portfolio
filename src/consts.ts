@@ -4,7 +4,7 @@ export const SITE: Site = {
   TITLE: "Ardox",
   DESCRIPTION: "Ardox's personal website",
   AUTHOR: "Ardox",
-  REPO_URL: "https://gitlab.com/lvardox/",
+  REPO_URL: "https://github.com/levraiardox/",
 };
 
 export const LINKS: Links = [
