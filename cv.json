@@ -26,16 +26,18 @@
   },
   "work": [
     {
-      "name": "Nowhere",
-      "position": "Nothing",
-      "location_type": "none",
-      "location": "Nowhere",
-      "url": "none",
-      "startDate": "never",
-      "endDate": "never",
-      "summary": "I have no experience",
+      "name": "Thales",
+      "position": "Developer intern",
+      "location_type": "On-site",
+      "location": "Rungis, France",
+      "url": "https://www.thalesgroup.com/",
+      "startDate": "2026-05-18",
+      "endDate": "2026-06-30",
+      "summary": "I did an internship at Thales, a French multinational company that designs and builds electrical systems and provides services for the aerospace, defense, transportation and security markets.",
       "responsibilities": [
-        "Nothing."
+        "Developing a tool for network device management and configuration.",
+        "Setting up an automatic documentation generation system for the tool.",
+        "Making unit and feature tests for the tool."
       ]
     }
   ],
